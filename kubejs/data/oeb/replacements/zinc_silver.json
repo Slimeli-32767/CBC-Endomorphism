@@ -1,0 +1,38 @@
+[
+    {
+        "matchBlock": [
+            "create:zinc_block"
+        ],
+        "resultBlock": "minecraft:gold_block"
+    },
+    {
+        "matchBlock": [
+            "create:zinc_ore"
+        ],
+        "resultBlock": "minecraft:gold_ore"
+    },
+    {
+        "matchBlock": [
+            "create:deepslate_zinc_ore"
+        ],
+        "resultBlock": "minecraft:deepslate_gold_ore"
+    },
+    {
+        "matchBlock": [
+            "create:raw_zinc_block"
+        ],
+        "resultBlock": "minecraft:raw_gold_block"
+    },
+    {
+        "matchBlock": [
+            "create:asurine"
+        ],
+        "resultBlock": "create:ochrum"
+    },
+    {
+        "matchBlock": [
+            "minecraft:ender_chest"
+        ],
+        "resultBlock": "minecraft:air"
+    }
+]

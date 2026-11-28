@@ -1,0 +1,297 @@
+{
+    "name": "block.kubejs.airdrop_station",
+    "appearance": {
+        "resistance": 12,
+        "requires_tool": false,
+        "idle": {
+            "block": "kubejs:machine/airdrop_station"
+        },
+        "running": {
+            "block": "kubejs:machine/airdrop_station"
+        },
+        "errored": {
+            "block": "kubejs:machine/airdrop_station"
+        },
+        "paused": {
+            "block": "kubejs:machine/airdrop_station"
+        }
+    },
+    "tooltips": [
+        {
+            "text": "kubejs.tooltip.multiblock_mech",
+            "color": "green"
+        },
+        {
+            "text": "kubejs.tooltip.multiblock_mech1",
+            "color": "green"
+        },
+        {
+            "text": "kubejs.tooltip.chunkloader",
+            "color": "green"
+        }
+    ],
+    "components": [
+        {
+            "type": "custommachinery:general_structure",
+            "id": "main",
+            "pattern": [
+                [
+                    "     ",
+                    "  A  ",
+                    " AIA ",
+                    "  A  ",
+                    "     "
+                ],
+                [
+                    "  A  ",
+                    "     ",
+                    "A J A",
+                    "     ",
+                    "  A  "
+                ],
+                [
+                    "  B  ",
+                    " DDD ",
+                    "BDLDB",
+                    " DDD ",
+                    "  B  "
+                ],
+                [
+                    "     ",
+                    " B B ",
+                    "  J  ",
+                    " B B ",
+                    "     "
+                ],
+                [
+                    "     ",
+                    " A A ",
+                    "  m  ",
+                    " A A ",
+                    "     "
+                ],
+                [
+                    "  B  ",
+                    " DDD ",
+                    "BDLDB",
+                    " DDD ",
+                    "  B  "
+                ],
+                [
+                    "  B  ",
+                    " HHH ",
+                    "BHNHB",
+                    " HHH ",
+                    "  B  "
+                ],
+                [
+                    "  C  ",
+                    "     ",
+                    "C O C",
+                    "     ",
+                    "  C  "
+                ]
+            ],
+            "keys": {
+                "A": "create:chute",
+                "N": "design_decor:brass_boiler_large",
+                "O": "design_decor:brass_boiler",
+                "J": "design_decor:copper_boiler",
+                "D": "design_decor:cast_iron_boiler_structure",
+                "I": "design_decor:cast_iron_boiler",
+                "C": "design_decor:andesite_floodlight",
+                "B": "#dut_create:metal_girder",
+                "L": "design_decor:cast_iron_boiler_large",
+                "H": "design_decor:brass_boiler_structure"
+            }
+        },
+        {
+            "type": "custommachinery:chunkload",
+            "radius": 2
+        },
+        {
+            "type": "custommachinery:redstone",
+            "powertopause": 16
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 500,
+            "id": "recipe_filter",
+            "maxInput": 0,
+            "maxOutput": 0,
+            "filter": [
+                "minecraft:water"
+            ],
+            "mode": "both",
+            "whitelist": true,
+            "config": {
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input1",
+            "mode": "input",
+            "locked": false,
+            "config": {
+                "default": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input2",
+            "mode": "input",
+            "locked": false,
+            "config": {
+                "default": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input3",
+            "mode": "input",
+            "locked": false,
+            "config": {
+                "default": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input4",
+            "mode": "input",
+            "locked": false,
+            "config": {
+                "default": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input5",
+            "mode": "input",
+            "locked": false,
+            "config": {
+                "default": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input6",
+            "mode": "input",
+            "locked": false,
+            "config": {
+                "default": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input7",
+            "mode": "input",
+            "locked": false,
+            "config": {
+                "default": "input",
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input8",
+            "mode": "input",
+            "locked": false,
+            "config": {
+                "default": "input",
+                "input": true,
+                "output": false
+            }
+        }
+    ],
+    "gui": [
+        {
+            "type": "custommachinery:texture",
+            "x": 0,
+            "y": 0,
+            "texture": "custommachinery:textures/gui/base_background.png"
+        },
+        {
+            "text": "block.kubejs.airdrop_station",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 101,
+            "y": 21,
+            "id": "input1",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 119,
+            "y": 21,
+            "id": "input2",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 137,
+            "y": 21,
+            "id": "input3",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 137,
+            "y": 39,
+            "id": "input4",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 137,
+            "y": 57,
+            "id": "input5",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 119,
+            "y": 57,
+            "id": "input6",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 101,
+            "y": 57,
+            "id": "input7",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 101,
+            "y": 39,
+            "id": "input8",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "x": 47,
+            "y": 110,
+            "type": "custommachinery:player_inventory"
+        }
+    ]
+}

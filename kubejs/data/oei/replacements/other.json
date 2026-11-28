@@ -1,0 +1,189 @@
+[
+    {
+        "matchItems": [
+            "create_sa:steam_engine"
+        ],
+        "resultItems": "create:precision_mechanism"
+    },
+    {
+        "matchItems": [
+            "create_sa:hydraulic_engine"
+        ],
+        "resultItems": "kubejs:mechanical_core"
+    },
+    {
+        "matchItems": [
+            "create_sa:heat_engine"
+        ],
+        "resultItems": "kubejs:electric_gear"
+    },
+    {
+        "matchItems": [
+            "createaddition:biomass_pellet"
+        ],
+        "resultItems": "createaddition:biomass"
+    },
+    {
+        "matchItems": [
+            "create:red_sand_paper"
+        ],
+        "resultItems": "create:sand_paper"
+    },
+    {
+        "matchItems": [
+            "immersive_aircraft:engine"
+        ],
+        "resultItems": "create:steam_engine"
+    },
+    {
+        "matchItems": [
+            "immersive_aircraft:boiler"
+        ],
+        "resultItems": "create:fluid_tank"
+    },
+    {
+        "matchItems": [
+            "immersive_aircraft:hull"
+        ],
+        "resultItems": "kubejs:mechanical_core"
+    },
+    {
+        "matchItems": [
+            "immersive_aircraft:sail"
+        ],
+        "resultItems": "create:white_sail"
+    },
+    {
+        "matchItems": [
+            "immersive_aircraft:propeller"
+        ],
+        "resultItems": "create:propeller"
+    },
+    {
+        "matchItems": [
+            "waystones:warp_stone",
+            "waystones:warp_dust"
+        ],
+        "resultItems": "kubejs:electro_hydro_capacitor"
+    },
+    {
+        "matchItems": [
+            "ad_astra:iron_plate"
+        ],
+        "resultItems": "create:iron_sheet"
+    },
+    {
+        "matchItems": [
+            "createaddition:iron_rod"
+        ],
+        "resultItems": "ad_astra:iron_rod"
+    },
+    {
+        "matchItems": [
+            "vintageimprovements:steel_rod"
+        ],
+        "resultItems": "ad_astra:steel_rod"
+    },
+    {
+        "matchItems": [
+            "vintageimprovements:redstone_module",
+            "ad_astra:wrench"
+        ],
+        "resultItems": "create:wrench"
+    },
+    {
+        "matchItems": [
+            "sophisticatedbackpacks:stack_upgrade_tier_3"
+        ],
+        "resultItems": "sophisticatedbackpacks:stack_upgrade_tier_2"
+    },
+    {
+        "matchItems": [
+            "vintageimprovements:aluminum_sheet"
+        ],
+        "resultItems": "kubejs:aluminum_sheet"
+    },
+    {
+        "matchItems": [
+            "vintageimprovements:sulfur"
+        ],
+        "resultItems": "kubejs:sulfur"
+    },
+    {
+        "matchItems": [
+            "vintageimprovements:tin_sheet"
+        ],
+        "resultItems": "kubejs:tin_sheet"
+    },
+    {
+        "matchItems": [
+            "sophisticatedbackpacks:stack_upgrade_tier_2",
+            "sophisticatedbackpacks:stack_upgrade_tier_3"
+        ],
+        "resultItems": "sophisticatedbackpacks:stack_upgrade_tier_1"
+    },
+    {
+        "matchItems": [
+            "create:powdered_obsidian"
+        ],
+        "resultItems": "minecraft:obsidian"
+    },
+    {
+        "matchItems": [
+            "create_connected:inventory_bridge"
+        ],
+        "resultItems": "create_connected:inventory_access_port"
+    },
+    {
+        "matchItems": [
+            "create_connected:control_chip"
+        ],
+        "resultItems": "kubejs:lime_circuit_board"
+    },
+    {
+        "matchItems": [
+            "minecraft:ender_pearl"
+        ],
+        "resultItems": "kubejs:electric_gear"
+    },
+    {
+        "matchItems": [
+            "ad_astra:ice_shard",
+            "ad_astra:desh_fluid_pipe",
+            "ad_astra:ostrum_ingot",
+            "ad_astra:ostrum_plate",
+            "ad_astra:ostrum_nugget",
+            "ad_astra:raw_ostrum",
+            "ad_astra:fluid_pipe_duct",
+            "vintageimprovements:sulfur_block",
+            "vintageimprovements:sulfur_chunk",
+            "vintageimprovements:sulfur",
+            "waystones:warp_plate",
+            "minecraft:ender_chest",
+            "create_sa:brass_jetpack_chestplate",
+            "ad_astra:oxygen_distributor",
+            "create_things_and_misc:neon_tube",
+            "create_sa:netherite_jetpack_chestplate",
+            "create_sa:andesite_jetpack_chestplate",
+            "create_sa:copper_jetpack_chestplate",
+            "create_sa:andesite_exoskeleton_chestplate",
+            "create_sa:copper_exoskeleton_chestplate",
+            "create_sa:zinc_handle",
+            "create_sa:small_fueling_tank",
+            "create_sa:medium_fueling_tank",
+            "create_sa:small_filling_tank",
+            "create_sa:medium_filling_tank",
+            "ad_astra:oxygen_sensor",
+            "ad_astra:cryo_freezer",
+            "ad_astra:water_pump",
+            "ad_astra:solar_panel",
+            "ad_astra:etrionic_blast_furnace",
+            "ad_astra:compressor",
+            "ad_astra:nasa_workbench",
+            "ad_astra:fuel_refinery",
+            "ad_astra:oxygen_loader",
+            "createdieselgenerators:oil_scanner"
+        ],
+        "resultItems": "kubejs:unknown_prototype"
+    }
+]

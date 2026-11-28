@@ -1,0 +1,7 @@
+{
+  "blocks":[
+    {"text": {"text": "经过技术改进，容器存取端口现在可以同时代理目标容器的物品和流体能力。"}},
+    {"image":{"texture": "createandesiteabound:textures/figure/access_port", "w": 960, "h": 493}},
+    {"text": {"text": "另外，我取消了被红石激活停止工作的机制，因为用途太少又经常被误触发。"}}
+  ]
+}

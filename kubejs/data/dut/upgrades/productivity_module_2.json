@@ -1,0 +1,23 @@
+{
+    "item": "kubejs:productivity_module_2",
+    "machines": [
+        "dut:steam_generator",
+        "dut:covariant_reactor"
+    ],
+    "modifiers": [
+        {
+            "requirement": "custommachinery:energy_per_tick",
+            "mode": "output",
+            "min": 60,
+            "operation": "multiplication",
+            "modifier": 1.25
+        },
+        {
+            "requirement": "custommachinery:energy",
+            "mode": "output",
+            "min": 60,
+            "operation": "multiplication",
+            "modifier": 1.25
+        }
+    ]
+}

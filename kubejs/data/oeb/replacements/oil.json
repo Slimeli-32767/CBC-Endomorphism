@@ -1,0 +1,8 @@
+[
+ {
+   "matchBlock": [
+     "ad_astra:oil"
+   ],
+   "resultBlock": "createdieselgenerators:crude_oil"
+ }
+]

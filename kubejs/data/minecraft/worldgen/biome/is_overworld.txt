@@ -1,0 +1,31 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:mushroom_fields",
+    "minecraft:frozen_ocean",
+    "minecraft:deep_ocean",
+    "minecraft:ocean",
+    "minecraft:warm_ocean",
+    "minecraft:stony_shore",
+    "minecraft:mangrove_swamp",
+    "minecraft:snowy_plains",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_forest",
+    "minecraft:plains",
+    "minecraft:beach",
+    "minecraft:flower_forest",
+    "minecraft:dark_forest",
+    "minecraft:jungle",
+    "minecraft:desert",
+    "minecraft:river",
+    "minecraft:eroded_badlands",
+    "minecraft:cherry_grove",
+    "minecraft:ice_spikes",
+    "minecraft:frozen_peaks",
+    "minecraft:jagged_peaks",
+    "minecraft:stony_peaks",
+    "minecraft:dripstone_caves",
+    "minecraft:lush_caves",
+    "minecraft:deep_dark"
+  ]
+}

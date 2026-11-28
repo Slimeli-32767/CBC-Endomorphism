@@ -1,0 +1,60 @@
+{
+  "type": "dut:slimeria",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "dut:slimeria",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "dut:nitrolithic_shore",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": -0.5,
+            "continentalness": -0.5,
+            "erosion": 1.6,
+            "weirdness": 1.8,
+            "depth": -0.2,
+            "offset": 0.95
+          }
+        },
+        {
+          "biome": "dut:thalassgel",
+          "parameters": {
+            "temperature": 0.2,
+            "humidity": 1.0,
+            "continentalness": -1.5,
+            "erosion": 0.3,
+            "weirdness": 0.4,
+            "depth": -0.2,
+            "offset": 0.85
+          }
+        },
+        {
+          "biome": "dut:chromatic_agros",
+          "parameters": {
+            "temperature": 0.2,
+            "humidity": -0.5,
+            "continentalness": -1.6,
+            "erosion": 0.6,
+            "weirdness": 0.8,
+            "depth": -0.2,
+            "offset": 0.95
+          }
+        },
+        {
+          "biome": "dut:spore_jungle",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": 1.0,
+            "continentalness": -0.5,
+            "erosion": 1.6,
+            "weirdness": 1.8,
+            "depth": -0.2,
+            "offset": 0.95
+          }
+        }
+      ]
+    }
+  }
+}

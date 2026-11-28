@@ -1,0 +1,657 @@
+{
+    "name": "block.kubejs.slimeria_gateway",
+    "appearance": {
+        "shape":[[0.125,0.0,0.125,0.875,0.5,0.875]],
+        "resistance": 12,
+        "requires_tool": false,
+        "idle": {
+            "block": "kubejs:machine/slimeria_gateway",
+            "light":15
+        },
+        "running": {
+            "block": "kubejs:machine/slimeria_gateway",
+            "light":15
+        },
+        "errored": {
+            "block": "kubejs:machine/slimeria_gateway",
+            "light":15
+        },
+        "paused": {
+            "block": "kubejs:machine/slimeria_gateway",
+            "light":15
+        }
+    },
+    "components": [
+        {
+            "type": "custommachinery:general_structure",
+            "id": "opengate",
+            "pattern": [
+                [
+                    "     A     ",
+                    "     D     ",
+                    "  KLLCLLM  ",
+                    "  LRRRRRL  ",
+                    "  LRYYYRL  ",
+                    "UDCRYZYRCDV",
+                    "  LRYYYRL  ",
+                    "  LRRRRRL  ",
+                    "  MLLCLLK  ",
+                    "     D     ",
+                    "     l     "
+                ],
+                [
+                    "           ",
+                    "     D     ",
+                    "     C     ",
+                    "     S     ",
+                    "     E     ",
+                    " DC[EDE[CD ",
+                    "     E     ",
+                    "     S     ",
+                    "     C     ",
+                    "     D     ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "     E     ",
+                    "     C     ",
+                    "           ",
+                    "     A     ",
+                    " EC U V CE ",
+                    "     l     ",
+                    "           ",
+                    "     C     ",
+                    "     E     ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "     F     ",
+                    "     C     ",
+                    "           ",
+                    "           ",
+                    " FC     CF ",
+                    "           ",
+                    "           ",
+                    "     C     ",
+                    "     F     ",
+                    "           "
+                ],
+                [
+                    "     B     ",
+                    "     E     ",
+                    "     C     ",
+                    "           ",
+                    "     B     ",
+                    "]EC ] ^ CE^",
+                    "     n     ",
+                    "           ",
+                    "     C     ",
+                    "     E     ",
+                    "     n     "
+                ],
+                [
+                    "     C     ",
+                    "     H     ",
+                    "     C     ",
+                    "    ETE    ",
+                    "   E E E   ",
+                    "CHC_E`EaCHC",
+                    "   E E E   ",
+                    "    EpE    ",
+                    "     C     ",
+                    "     H     ",
+                    "     C     "
+                ],
+                [
+                    "     C     ",
+                    "     I     ",
+                    "     I     ",
+                    "    UNV    ",
+                    "   AYYYA   ",
+                    "CIINYZYNIIC",
+                    "   lYYYl   ",
+                    "    UNV    ",
+                    "     I     ",
+                    "     I     ",
+                    "     C     "
+                ],
+                [
+                    "           ",
+                    "     J     ",
+                    "     N     ",
+                    "           ",
+                    "    YYY    ",
+                    " JN YZY NJ ",
+                    "    YYY    ",
+                    "           ",
+                    "     N     ",
+                    "     J     ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "     A     ",
+                    "     E     ",
+                    "           ",
+                    "     S     ",
+                    " UE cd[ EV ",
+                    "     o     ",
+                    "           ",
+                    "     E     ",
+                    "     l     ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "           ",
+                    "     O     ",
+                    "           ",
+                    "           ",
+                    "  e  d  f  ",
+                    "           ",
+                    "           ",
+                    "     q     ",
+                    "           ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "           ",
+                    "     P     ",
+                    "           ",
+                    "           ",
+                    "  g  m  h  ",
+                    "           ",
+                    "           ",
+                    "     r     ",
+                    "           ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "           ",
+                    "     Q     ",
+                    "           ",
+                    "           ",
+                    "  i     j  ",
+                    "           ",
+                    "           ",
+                    "     s     ",
+                    "           ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "           ",
+                    "     E     ",
+                    "           ",
+                    "           ",
+                    "  E     E  ",
+                    "           ",
+                    "           ",
+                    "     E     ",
+                    "           ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "           ",
+                    "     A     ",
+                    "           ",
+                    "           ",
+                    "  U     V  ",
+                    "           ",
+                    "           ",
+                    "     l     ",
+                    "           ",
+                    "           "
+                ]
+            ],
+            "keys": {
+                "K": "create_connected:parallel_gearbox",
+                "`": "design_decor:industrial_iron_boiler[facing=up]",
+                "D": "design_decor:industrial_iron_boiler[facing=down]",
+                "a": "design_decor:industrial_iron_boiler[facing=west]",
+                "_": "design_decor:industrial_iron_boiler[facing=east]",
+                "p": "design_decor:industrial_iron_boiler[facing=north]",
+                "T": "design_decor:industrial_iron_boiler[facing=south]",
+                "Z": "design_decor:brass_boiler_large",
+                "Y": "design_decor:brass_boiler_structure",
+                "R": "create_things_and_misc:brass_bricks",
+                "I": "create:gantry_shaft",
+                "J": "create:gantry_carriage",
+                "L": "create:andesite_encased_shaft",
+                "E": "create:chute",
+                "F": "kubejs:carbon_electrode",
+                "M": "create:gearbox",
+                "P": "create_connected:item_silo",
+                "r": "create_connected:item_silo",
+                "O": "create_connected:item_silo",
+                "j": "create_connected:item_silo",
+                "q": "create_connected:item_silo",
+                "g": "create_connected:item_silo",
+                "f": "create_connected:item_silo",
+                "Q": "create_connected:item_silo",
+                "e": "create_connected:item_silo",
+                "h": "create_connected:item_silo",
+                "i": "create_connected:item_silo",
+                "s": "create_connected:item_silo",
+                "l": "design_decor:diagonal_girder[facing=north,facing_up=false]",
+                "^": "design_decor:diagonal_girder[facing=west,facing_up=true]",
+                "]": "design_decor:diagonal_girder[facing=east,facing_up=true]",
+                "U": "design_decor:diagonal_girder[facing=east,facing_up=false]",
+                "n": "design_decor:diagonal_girder[facing=north,facing_up=true]",
+                "B": "design_decor:diagonal_girder[facing=south,facing_up=true]",
+                "V": "design_decor:diagonal_girder[facing=west,facing_up=false]",
+                "A": "design_decor:diagonal_girder[facing=south,facing_up=false]",
+                "N": "design_decor:industrial_plating_block",
+                "c": "create:metal_girder[axis=x]",
+                "[": "create:metal_girder[axis=x]",
+                "S": "create:metal_girder[axis=z]",
+                "o": "create:metal_girder[axis=z]",
+                "H": "create:gearshift",
+                "d": "design_decor:copper_boiler[facing=down]",
+                "C": "create:encased_chain_drive"
+            }
+        },
+        {
+            "type": "custommachinery:general_structure",
+            "id": "work",
+            "pattern": [
+                [
+                    "     A     ",
+                    "     D     ",
+                    "  KLLCLLM  ",
+                    "  LRRRRRL  ",
+                    "  LRYYYRL  ",
+                    "UDCRYZYRCDV",
+                    "  LRYYYRL  ",
+                    "  LRRRRRL  ",
+                    "  MLLCLLK  ",
+                    "     D     ",
+                    "     l     "
+                ],
+                [
+                    "           ",
+                    "     D     ",
+                    "     C     ",
+                    "     S     ",
+                    "     E     ",
+                    " DC[EDE[CD ",
+                    "     E     ",
+                    "     S     ",
+                    "     C     ",
+                    "     D     ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "     E     ",
+                    "     C     ",
+                    "           ",
+                    "     A     ",
+                    " EC U V CE ",
+                    "     l     ",
+                    "           ",
+                    "     C     ",
+                    "     E     ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "     F     ",
+                    "     C     ",
+                    "           ",
+                    "           ",
+                    " FC     CF ",
+                    "           ",
+                    "           ",
+                    "     C     ",
+                    "     F     ",
+                    "           "
+                ],
+                [
+                    "     B     ",
+                    "     E     ",
+                    "     C     ",
+                    "           ",
+                    "     B     ",
+                    "]EC ] ^ CE^",
+                    "     n     ",
+                    "           ",
+                    "     C     ",
+                    "     E     ",
+                    "     n     "
+                ],
+                [
+                    "     C     ",
+                    "     H     ",
+                    "     C     ",
+                    "    ETE    ",
+                    "   E E E   ",
+                    "CHC_E`EaCHC",
+                    "   E E E   ",
+                    "    EpE    ",
+                    "     C     ",
+                    "     H     ",
+                    "     C     "
+                ],
+                [
+                    "     C     ",
+                    "     I     ",
+                    "     I     ",
+                    "    UNV    ",
+                    "   AYYYA   ",
+                    "CIINYZYNIIC",
+                    "   lYYYl   ",
+                    "    UNV    ",
+                    "     I     ",
+                    "     I     ",
+                    "     C     "
+                ],
+                [
+                    "           ",
+                    "           ",
+                    "     J     ",
+                    "     N     ",
+                    "    YYY    ",
+                    "  JNYZYNJ  ",
+                    "    YYY    ",
+                    "     N     ",
+                    "     J     ",
+                    "           ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "           ",
+                    "     A     ",
+                    "     E     ",
+                    "     S     ",
+                    "  UEcd[EV  ",
+                    "     o     ",
+                    "     E     ",
+                    "     l     ",
+                    "           ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "           ",
+                    "           ",
+                    "     O     ",
+                    "           ",
+                    "   e d f   ",
+                    "           ",
+                    "     q     ",
+                    "           ",
+                    "           ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "           ",
+                    "           ",
+                    "     P     ",
+                    "           ",
+                    "   g m h   ",
+                    "           ",
+                    "     r     ",
+                    "           ",
+                    "           ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "           ",
+                    "           ",
+                    "     Q     ",
+                    "           ",
+                    "   i   j   ",
+                    "           ",
+                    "     s     ",
+                    "           ",
+                    "           ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "           ",
+                    "           ",
+                    "     E     ",
+                    "           ",
+                    "   E   E   ",
+                    "           ",
+                    "     E     ",
+                    "           ",
+                    "           ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    "           ",
+                    "           ",
+                    "     A     ",
+                    "           ",
+                    "   U   V   ",
+                    "           ",
+                    "     l     ",
+                    "           ",
+                    "           ",
+                    "           "
+                ]
+            ],
+            "keys": {
+                "K": "create_connected:parallel_gearbox",
+                "`": "design_decor:industrial_iron_boiler[facing=up]",
+                "D": "design_decor:industrial_iron_boiler[facing=down]",
+                "a": "design_decor:industrial_iron_boiler[facing=west]",
+                "_": "design_decor:industrial_iron_boiler[facing=east]",
+                "p": "design_decor:industrial_iron_boiler[facing=north]",
+                "T": "design_decor:industrial_iron_boiler[facing=south]",
+                "Z": "design_decor:brass_boiler_large",
+                "Y": "design_decor:brass_boiler_structure",
+                "R": "create_things_and_misc:brass_bricks",
+                "I": "create:gantry_shaft",
+                "J": "create:gantry_carriage",
+                "L": "create:andesite_encased_shaft",
+                "E": "create:chute",
+                "F": "kubejs:carbon_electrode",
+                "M": "create:gearbox",
+                "P": "create_connected:item_silo",
+                "r": "create_connected:item_silo",
+                "O": "create_connected:item_silo",
+                "j": "create_connected:item_silo",
+                "q": "create_connected:item_silo",
+                "g": "create_connected:item_silo",
+                "f": "create_connected:item_silo",
+                "Q": "create_connected:item_silo",
+                "e": "create_connected:item_silo",
+                "h": "create_connected:item_silo",
+                "i": "create_connected:item_silo",
+                "s": "create_connected:item_silo",
+                "l": "design_decor:diagonal_girder[facing=north,facing_up=false]",
+                "^": "design_decor:diagonal_girder[facing=west,facing_up=true]",
+                "]": "design_decor:diagonal_girder[facing=east,facing_up=true]",
+                "U": "design_decor:diagonal_girder[facing=east,facing_up=false]",
+                "n": "design_decor:diagonal_girder[facing=north,facing_up=true]",
+                "B": "design_decor:diagonal_girder[facing=south,facing_up=true]",
+                "V": "design_decor:diagonal_girder[facing=west,facing_up=false]",
+                "A": "design_decor:diagonal_girder[facing=south,facing_up=false]",
+                "N": "design_decor:industrial_plating_block",
+                "c": "create:metal_girder[axis=x]",
+                "[": "create:metal_girder[axis=x]",
+                "S": "create:metal_girder[axis=z]",
+                "o": "create:metal_girder[axis=z]",
+                "H": "create:gearshift",
+                "d": "design_decor:copper_boiler[facing=down]",
+                "C": "create:encased_chain_drive"
+            }
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 6000,
+            "id": "heat1",
+            "mode": "both",
+            "filter": [
+                "kubejs:covariant_heat"
+            ],
+            "whitelist": true,
+            "config": {
+                "input": false,
+                "output": false,
+                "default": "none"
+            }
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 6000,
+            "id": "heat2",
+            "mode": "both",
+            "filter": [
+                "kubejs:covariant_heat"
+            ],
+            "whitelist": true,
+            "config": {
+                "input": false,
+                "output": false,
+                "default": "none"
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "electro1",
+            "mode": "input",
+            "filter": [
+                "kubejs:electro_hydro_capacitor"
+            ],
+            "whitelist": true,
+            "config": {
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "electro2",
+            "mode": "input",
+            "filter": [
+                "kubejs:electro_hydro_capacitor"
+            ],
+            "whitelist": true,
+            "config": {
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "electro3",
+            "mode": "input",
+            "filter": [
+                "kubejs:electro_hydro_capacitor"
+            ],
+            "whitelist": true,
+            "config": {
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "electro4",
+            "mode": "input",
+            "filter": [
+                "kubejs:electro_hydro_capacitor"
+            ],
+            "whitelist": true,
+            "config": {
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "steel",
+            "mode": "input",
+            "filter": [
+                "kubejs:steel_parts_box"
+            ],
+            "whitelist": true,
+            "config": {
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "unsteady",
+            "mode": "both",
+            "filter": [
+                "kubejs:unsteady_electro_hydro"
+            ],
+            "whitelist": true,
+            "capacity": 1,
+            "config": {
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:remote_item",
+            "pos": [3,-1,0],
+            "mode": "input",
+            "slotID": [
+                "electro1",
+                "electro2",
+                "electro3",
+                "electro4",
+                "steel"
+            ]
+        },
+        {
+            "type": "custommachinery:remote_item",
+            "pos": [-3,-1,0],
+            "mode": "input",
+            "slotID": [
+                "electro1",
+                "electro2",
+                "electro3",
+                "electro4",
+                "steel"
+            ]
+        },
+        {
+            "type": "custommachinery:remote_item",
+            "pos": [0,-1,3],
+            "mode": "input",
+            "slotID": [
+                "electro1",
+                "electro2",
+                "electro3",
+                "electro4",
+                "steel"
+            ]
+        },
+        {
+            "type": "custommachinery:remote_item",
+            "pos": [0,-1,-3],
+            "mode": "input",
+            "slotID": [
+                "electro1",
+                "electro2",
+                "electro3",
+                "electro4",
+                "steel"
+            ]
+        }
+    ]
+}

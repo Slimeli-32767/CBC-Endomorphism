@@ -1,0 +1,194 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "40358800ECDAECC3"
+	group: "6EA46263F86F561F"
+	icon: "create:clipboard"
+	id: "40358800ECDAECC3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"产线设计是一门需要数据量化、精密计算、空间想象与反复优化的技艺"
+				""
+				"在这一节，我们会学习&e配方配平&r、&e配方分析&r、&e分流/溢流/合流&r、&e总线式设计&r等&a重要内容！&r它们是你设计一个全自动化工厂的基础知识！"
+				""
+				"不用担心，我们会从最基础的产线开始，一步步学习这些内容"
+				""
+				"在上方有一些基础的名词概念，如果你不熟悉或者遇到看不懂的内容，就可以去翻翻它们"
+			]
+			id: "6EACD84C73AA8E0A"
+			tasks: [{
+				id: "7A2EAE8D9D3E9497"
+				title: "产线设计是门学问"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: ["{ftbquests.chapter_30B81675C3809613.quest_0043A7E99CF985B3.desc_01}"]
+			icon: "minecraft:bell"
+			id: "0043A7E99CF985B3"
+			shape: "rsquare"
+			tasks: [{
+				id: "7EB0EFC0705347BD"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter_30B81675C3809613.quest_0043A7E99CF985B3.title}"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			description: ["{ftbquests.chapter_30B81675C3809613.quest_2B7B012E95B79C82.desc_01}"]
+			icon: "design_decor:cardboard_box"
+			id: "2B7B012E95B79C82"
+			rewards: [{
+				count: 81
+				id: "3627976DF5FD8CE8"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "740F9703F3D33F6C"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter_30B81675C3809613.quest_2B7B012E95B79C82.title}"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			description: ["{ftbquests.chapter_30B81675C3809613.quest_59EC882B083BE3F4.desc_01}"]
+			icon: "design_decor:copper_gas_tank"
+			id: "59EC882B083BE3F4"
+			shape: "rsquare"
+			tasks: [{
+				id: "15725298D440E142"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter_30B81675C3809613.quest_59EC882B083BE3F4.title}"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: ["{ftbquests.chapter_30B81675C3809613.quest_4B8E049791A9312B.desc_01}"]
+			icon: "minecraft:cartography_table"
+			id: "4B8E049791A9312B"
+			shape: "rsquare"
+			tasks: [{
+				id: "4F6126EEE1F4CA31"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter_30B81675C3809613.quest_4B8E049791A9312B.title}"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: ["{ftbquests.chapter_30B81675C3809613.quest_5345FFEA8CA1E344.desc_01}"]
+			icon: "minecraft:barrel"
+			id: "5345FFEA8CA1E344"
+			shape: "rsquare"
+			tasks: [{
+				id: "0D2A5A881E4E637B"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter_30B81675C3809613.quest_5345FFEA8CA1E344.title}"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter_30B81675C3809613.quest_44BA4F66EBBAC270.desc_01}"
+				"{@pagebreak}"
+				"{ftbquests.chapter_30B81675C3809613.quest_44BA4F66EBBAC270.desc_02}"
+			]
+			icon: "geckojs:stepping_caculator"
+			id: "44BA4F66EBBAC270"
+			shape: "rsquare"
+			tasks: [{
+				id: "6639A9EC0FCD2CCB"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter_30B81675C3809613.quest_44BA4F66EBBAC270.title}"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			description: ["{ftbquests.chapter_30B81675C3809613.quest_21A99991A2951A24.desc_01}"]
+			icon: {
+				Count: 1
+				id: "kubejs:aluminum_hard_disk"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "21A99991A2951A24"
+			shape: "rsquare"
+			tasks: [{
+				id: "423D61C4F6EDA33A"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter_30B81675C3809613.quest_21A99991A2951A24.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			description: ["{ftbquests.chapter_30B81675C3809613.quest_65BA53CE1A15525F.desc_01}"]
+			icon: "createdieselgenerators:oil_barrel"
+			id: "65BA53CE1A15525F"
+			shape: "rsquare"
+			tasks: [{
+				id: "5D6B20E7BA61DF3C"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter_30B81675C3809613.quest_65BA53CE1A15525F.title}"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			description: [""]
+			id: "1ED66CDB7E105323"
+			tasks: [{
+				id: "69D61A57ED890558"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "2D2826B9C6A2B761"
+			tasks: [{
+				id: "15D7653077C87DE7"
+				item: "kubejs:andesite_universal_machine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "3E77CBB5D38DB12A"
+			tasks: [{
+				id: "23B8038F93141C17"
+				item: "kubejs:farming_station"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2D2826B9C6A2B761"]
+			id: "2A69842B7E7DE72D"
+			tasks: [{
+				id: "59743B04F1CB5EC9"
+				item: "create:crimsite"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+	]
+	subtitle: ["自动化的基础技巧"]
+	title: "工业伊始"
+}

@@ -1,0 +1,15 @@
+{
+    "item": "kubejs:productivity_module",
+    "machines": [
+        "dut:electron_tube_computer",
+        "dut:large_difference_engine"
+    ],
+    "modifiers": [
+        {
+            "requirement": "custommachinery:fluid_per_tick",
+            "mode": "output",
+            "operation": "multiplication",
+            "modifier": 1.25
+        }
+    ]
+}

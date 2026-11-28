@@ -1,0 +1,7 @@
+{
+    "name": "block.kubejs.filling_machine",
+    "appearance": {
+        "resistance": 12,
+        "requires_tool": false
+    }
+}

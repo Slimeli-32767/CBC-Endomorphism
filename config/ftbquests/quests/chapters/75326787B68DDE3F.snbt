@@ -1,0 +1,316 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "75326787B68DDE3F"
+	group: "6EA46263F86F561F"
+	icon: "create:andesite_alloy"
+	id: "75326787B68DDE3F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"第一乐章是母星工业的基础。"
+				""
+				"&e在这一乐章中，你将学会基础的工业技巧，并建立起一个完整的母星基地，从而为飞向太空做准备&r"
+				""
+				"时刻记住，你所要面对的是一个&c完全陌生的世界！&r不要把过往经验带到这里来！"
+				""
+				"如果你准备好了，那我们现在开始。"
+			]
+			id: "32FEB3B836BDA89D"
+			rewards: [{
+				id: "7C72E543CF02CC6A"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5281E340E6602E0D"
+				title: "{ftbquests.chapter_7BC2309B8F81FB48.quest_57005A71B5688770.title}"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32FEB3B836BDA89D"]
+			description: [
+				"我们要做的第一件事是寻找一块原木。&e在你的飞船附近应该就有&r"
+				""
+				"&e别心急——不要挖掉它。&r如果你已经挖掉了，也可以把获得的&a木屑块&r放下来"
+				""
+				"&b......重要的事下次早点说&r"
+				""
+				"是你太急了——我还没来得及说。&e你真正需要做的是在空手时&r&6[右键]&r&e原木（或者是木屑块）——这样你就能获得无限的木屑&r"
+				""
+				"&b啊？&r"
+				""
+				"别惊讶——&e这个世界正在日渐崩坏&r，这只不过是其中一个小小的体现罢了"
+			]
+			id: "79E19663A51A9970"
+			rewards: [{
+				count: 64
+				id: "755C750FB75418A0"
+				item: "createdieselgenerators:chip_wood_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7643E3DC13D16182"
+				item: "createdieselgenerators:wood_chip"
+				type: "item"
+			}]
+			title: "木材获取"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79E19663A51A9970"]
+			description: ["{ftbquests.chapter_4CE866617236E6D1.quest_3ED7AD3668D22C2F.desc_01}"]
+			id: "3ED7AD3668D22C2F"
+			rewards: [{
+				id: "15D35437A2CB0EB9"
+				item: {
+					Count: 1
+					id: "create:wrench"
+					tag: {
+						Enchantments: [
+							{
+								id: "minecraft:sharpness"
+								lvl: 12s
+							}
+							{
+								id: "minecraft:fire_aspect"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:looting"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:knockback"
+								lvl: 7s
+							}
+						]
+						display: {
+							Name: "{\"translate\":\"kubejs.item.first_wrench\",\"italic\":false}"
+						}
+					}
+				}
+				team_reward: false
+				type: "item"
+			}]
+			tasks: [{
+				id: "689EA4D6FC9E9B32"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			description: ["{ftbquests.chapter_4CE866617236E6D1.quest_553646E9F773C43F.desc_01}"]
+			hide_until_deps_complete: false
+			id: "553646E9F773C43F"
+			invisible: true
+			rewards: [
+				{
+					id: "0957B74667201CF5"
+					item: "kubejs:anti_warden_bomb"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "5A17D521D4524DCD"
+					item: {
+						Count: 1
+						id: "createandesiteabound:fluid_vessel"
+						tag: {
+							Content: {
+								Amount: 16000
+								FluidName: "minecraft:water"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: "minecraft:reinforced_deepslate"
+				id: "7FB227BA3AB6252D"
+				title: "{ftbquests.chapter_4CE866617236E6D1.quest_553646E9F773C43F.task_7FB227BA3AB6252D.title}"
+				type: "biome"
+			}]
+			title: "{ftbquests.chapter_4CE866617236E6D1.quest_553646E9F773C43F.title}"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6F26065A100B146F"]
+			description: [
+				"你需要寻找一块&a铁矿石&r。&e在你的飞船附近应该就有&r。除此以外，你也可以偶尔在位于地表的陨石当中发现它。"
+				""
+				"&e不要挖掉它。在手持镐子时&r&6[右键]&r&e它——这样你就能获得&r&a粉碎铁矿石&r"
+			]
+			id: "07ACB9EB87B8F1C5"
+			tasks: [{
+				id: "4F04FD236DBCBE0A"
+				item: "create:crushed_raw_iron"
+				type: "item"
+			}]
+			title: "获取铁矿"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["79E19663A51A9970"]
+			description: [
+				"制造一把&a木镐&r来挖掘&e石头&r——你使用的所有工具、武器和护甲都有着无限的耐久，所以使用它们时不必吝啬"
+				""
+				"如果你不知道如何制造它，可以对它按下&6[R]&r以在JEI中查看它的制作配方"
+				""
+				"在拿到石头之后，你会发现&e可以在手持时对它按下[R]来切换它的种类&r——而实际上，有许多物品都可以这么做"
+				""
+				"你可以使用&a圆石&r制造熔炉，乃至进一步制成&a高炉&r"
+			]
+			icon: "minecraft:cobblestone"
+			id: "6F26065A100B146F"
+			rewards: [
+				{
+					id: "523D82C2FDBD4F66"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+				{
+					id: "60D7D296EFC7EAC4"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6E3573953EEA82E0"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "2D72E71A5BAE8395"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "石材获取"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F26065A100B146F"]
+			description: [
+				"你需要寻找一块&a煤矿石&r。&e在你的飞船附近应该就有&r。除此以外，你也可以偶尔在位于地表的陨石当中发现它。"
+				""
+				"&e不要挖掉它。在手持镐子时&r&6[右键]&r&e它——这样你就能获得&r&a粉碎煤&r"
+			]
+			id: "26114F740FBFF04D"
+			tasks: [{
+				id: "546011ECDC442A22"
+				item: "kubejs:crushed_coal"
+				type: "item"
+			}]
+			title: "获取煤矿"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"07ACB9EB87B8F1C5"
+				"26114F740FBFF04D"
+			]
+			description: [
+				"现在，我们距离工业的开始就非常近了。多冶炼一些铁锭，你可以&e同时安排多个熔炉一齐烧制&r"
+				""
+				"你可以使用铁锭&6[右键]&r熔炉来把它变为高炉，这可以使你的冶炼速度变得更快些"
+			]
+			id: "5424B940013F505A"
+			rewards: [
+				{
+					count: 48
+					id: "7AD17086F508762A"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0E776A6F69720BBD"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70FC3268EAF56671"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "第一块铁"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5424B940013F505A"]
+			description: [
+				"安山合金是工业化的开始！几乎所有的基础机械设备都需要用到它"
+				""
+				"&e手持&r&a铁锭&r&6[右键]&r&a安山岩&r&e，你就可以将铁锭转化为安山合金。&r在你的飞船附近应当就有一些安山岩"
+			]
+			id: "189529ED24CE0C30"
+			size: 1.0d
+			tasks: [{
+				id: "749CFCADD6FE12E8"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "基础合金"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["189529ED24CE0C30"]
+			description: [
+				"机械核心是最基础的工业元件！"
+				""
+				"&e你可以用它转化出&r&a传动杆、齿轮、工作盆&r&e等一系列元件！手持机械核心并按下&r&6[R]&r&e，你就可以打开转化列表！&r"
+				""
+				"&e如果你不知道这些元件如何使用，可以对它们按下&r&6[W]&r&e打开思索！&r"
+				""
+				"随着&a科研&r进度的提高，你可以转化的元件会越来越多——不过这是后话了"
+				""
+				"现在，你可以开始学习建造自己的第一批产线了！"
+			]
+			id: "1B735BD85E2E3375"
+			rewards: [{
+				count: 48
+				id: "1899AC98332DB8BA"
+				item: "kubejs:mechanical_core"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "3DCEE7714FF3ED2A"
+				item: "kubejs:mechanical_core"
+				type: "item"
+			}]
+			title: "元件之源"
+			x: -0.5d
+			y: 5.25d
+		}
+	]
+	subtitle: ["一切的开始"]
+	title: "※蹒跚学步"
+}

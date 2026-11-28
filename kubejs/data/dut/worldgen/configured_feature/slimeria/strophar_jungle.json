@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "dut:slimeria/tree_checked",
+    "features": [
+      {
+        "feature": "dut:slimeria/jungle/jungle_strophar_fungus1",
+        "chance": 0.4
+      },
+      {
+        "feature": "dut:slimeria/jungle/jungle_strophar_fungus",
+        "chance": 0.3
+      },
+      {
+        "feature": "dut:slimeria/jungle/strophar_cap_pile",
+        "chance": 0.075
+      },
+      {
+        "feature": "dut:slimeria/jungle/strophar_stem_pile",
+        "chance": 0.025
+      },
+      {
+        "feature": "dut:slimeria/jungle/jungle_strophar_tiny",
+        "chance": 0.25
+      }
+    ]
+  }
+}

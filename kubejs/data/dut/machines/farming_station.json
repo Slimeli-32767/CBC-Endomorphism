@@ -1,0 +1,154 @@
+{
+    "name": "block.kubejs.farming_station",
+    "appearance": {
+        "resistance": 12,
+        "requires_tool": false,
+        "idle": {
+            "block": "kubejs:machine/farming_station"
+        },
+        "running": {
+            "block": "kubejs:machine/farming_station"
+        },
+        "errored": {
+            "block": "kubejs:machine/farming_station"
+        },
+        "paused": {
+            "block": "kubejs:machine/farming_station"
+        }
+    },
+    "components": [
+        {
+            "type": "custommachinery:general_structure",
+            "id": "wheat",
+            "pattern": [
+                [
+                    "AAAAA",
+                    "AAAAA",
+                    "AA AA",
+                    "AAAAA",
+                    "AAAAA"
+                ],
+                [
+                    "BBBBB",
+                    "BBBBB",
+                    "BBmBB",
+                    "BBBBB",
+                    "BBBBB"
+                ]
+            ],
+            "keys": {
+                "A": "minecraft:farmland",
+                "B": "minecraft:wheat"
+            }
+        },
+        {
+            "type": "custommachinery:general_structure",
+            "id": "potatoes",
+            "pattern": [
+                [
+                    "AAAAA",
+                    "AAAAA",
+                    "AA AA",
+                    "AAAAA",
+                    "AAAAA"
+                ],
+                [
+                    "BBBBB",
+                    "BBBBB",
+                    "BBmBB",
+                    "BBBBB",
+                    "BBBBB"
+                ]
+            ],
+            "keys": {
+                "A": "minecraft:farmland",
+                "B": "minecraft:potatoes"
+            }
+        },
+        {
+            "type": "custommachinery:redstone",
+            "powertopause": 1
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 2000,
+            "id": "fluid_input",
+            "maxInput": 2000,
+            "maxOutput": 0,
+            "mode": "input",
+            "config": {
+                "default": "input",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 2000,
+            "id": "fluid_output",
+            "maxInput": 0,
+            "maxOutput": 2000,
+            "mode": "output",
+            "config": {
+                "default": "output",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input",
+            "mode": "input",
+            "locked": false,
+            "config": {
+                "default": "input",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "output1",
+            "mode": "output",
+            "locked": false,
+            "config": {
+                "default": "output",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "output2",
+            "mode": "output",
+            "locked": false,
+            "config": {
+                "default": "output",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "output3",
+            "mode": "output",
+            "locked": false,
+            "config": {
+                "default": "output",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "output4",
+            "mode": "output",
+            "locked": false,
+            "config": {
+                "default": "output",
+                "input": false,
+                "output": false
+            }
+        }
+    ]
+}

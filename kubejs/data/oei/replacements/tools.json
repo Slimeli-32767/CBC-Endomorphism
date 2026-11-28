@@ -1,0 +1,70 @@
+[
+    {
+        "matchItems": [
+            "createoreexcavation:vein_finder"
+        ],
+        "resultItems": "kubejs:scanner"
+    },
+    {
+        "matchItems": [
+            "minecraft:stone_pickaxe",
+            "create_sa:copper_pickaxe",
+            "create_sa:zinc_pickaxe",
+            "minecraft:iron_pickaxe",
+            "minecraft:golden_pickaxe",
+            "minecraft:diamond_pickaxe",
+            "create_sa:blazing_pickaxe"
+        ],
+        "resultItems": "create_sa:brass_pickaxe"
+    },
+    {
+        "matchItems": [
+            "create_sa:copper_axe",
+            "create_sa:zinc_axe",
+            "minecraft:stone_axe",
+            "minecraft:iron_axe",
+            "minecraft:golden_axe",
+            "minecraft:diamond_axe",
+            "create_sa:blazing_axe"
+        ],
+        "resultItems": "create_sa:brass_axe"
+    },
+    {
+        "matchItems": [
+            "minecraft:wooden_hoe",
+            "minecraft:stone_hoe",
+            "create_sa:copper_hoe",
+            "create_sa:zinc_hoe",
+            "minecraft:iron_hoe",
+            "minecraft:golden_hoe",
+            "minecraft:diamond_hoe"
+        ],
+        "resultItems": "create_sa:brass_hoe"
+    },
+    {
+        "matchItems": [
+            "minecraft:wooden_sword",
+            "minecraft:golden_sword",
+            "minecraft:stone_sword",
+            "create_sa:copper_sword",
+            "create_sa:zinc_sword",
+            "minecraft:iron_sword",
+            "minecraft:diamond_sword",
+            "create_sa:blazing_cleaver"
+        ],
+        "resultItems": "create_sa:brass_sword"
+    },
+    {
+        "matchItems": [
+            "minecraft:iron_shovel",
+            "minecraft:wooden_shovel",
+            "minecraft:stone_shovel",
+            "create_sa:copper_shovel",
+            "create_sa:zinc_shovel",
+            "minecraft:golden_shovel",
+            "minecraft:diamond_shovel",
+            "create_sa:blazing_shovel"
+        ],
+        "resultItems": "create_sa:brass_shovel"
+    }
+]

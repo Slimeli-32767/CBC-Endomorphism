@@ -1,0 +1,39 @@
+{
+    "item": "kubejs:efficiency_module_3",
+    "machines": [
+        "dut:electron_tube_computer",
+        "dut:assembling_machine",
+        "dut:construction_station",
+        "dut:electrolytic_cell",
+        "dut:steam_generator",
+        "dut:covariant_reactor"
+    ],
+    "modifiers": [
+        {
+            "requirement": "custommachinery:energy_per_tick",
+            "mode": "input",
+            "min": 60,
+            "operation": "multiplication",
+            "modifier": 0.8
+        },
+        {
+            "requirement": "custommachinery:energy",
+            "mode": "input",
+            "min": 60,
+            "operation": "multiplication",
+            "modifier": 0.8
+        },
+        {
+            "requirement": "custommachinery:energy_per_tick",
+            "mode": "output",
+            "operation": "multiplication",
+            "modifier": 1.125
+        },
+        {
+            "requirement": "custommachinery:energy",
+            "mode": "output",
+            "operation": "multiplication",
+            "modifier": 1.125
+        }
+    ]
+}

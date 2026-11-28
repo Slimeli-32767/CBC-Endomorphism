@@ -1,0 +1,399 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4CE866617236E6D1"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: "kubejs:unknown_prototype"
+	id: "4CE866617236E6D1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28247D1DB799E33A"]
+			description: [
+				"因为宇宙之间的物质并不“兼容”，所以你和它已经被这个宇宙异化为了本宇宙所存在的物质。"
+				""
+				"&b这是什么意思？&r"
+				""
+				"举个例子，制造你飞船的材料中或许有很多并不存在于这个宇宙——它们的存在会导致宇宙变得更加不稳定。所以，宇宙在自我修复时会将它们嬗变为与之最为接近的物质。"
+				""
+				"至于你自己——根据我的观测，你在来到这里的那一瞬间时，身上应该有大量的植入体和外置设备。宇宙并不理解你的生命形式，于是你就被转化为了现在的样子——&a一种能飞行、无需氧气、还能随意切换躯壳&r的特殊生命。"
+				""
+				"&b这听上去倒是半个好消息。那我还能变回原来的样子吗？&r"
+				"{@pagebreak}"
+				"理论上可以——信息不会灭亡，只会转变形式。所以理论上，是有方法让你变回“你自己”的——但我并不知道具体要怎么做。"
+				""
+				"&b所以我现在的生命形式还有什么特殊的吗？&r"
+				""
+				"嗯......根据我的分析，你应该具备某种&a“意识投射”&r&6(按下[F4]以激活)&r能力，可以使得灵魂离体以观察周围。同时，&a灵魂还能在“死亡”后随意选择一处地点生成新的躯壳。&r说实话——我有些羡慕你了。"
+			]
+			icon: "minecraft:player_head"
+			id: "427665DF9DDD1F93"
+			rewards: [{
+				id: "17864D007DF93A2A"
+				item: "kubejs:slime_cola_can"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15BA3B6EAD736178"
+				title: "我和我的飞船为什么会变成这样？"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				"&e你的地表勘探任务结束了，尽管方式并非是你所期望的&r"
+				""
+				"&a在工程飞船降落在地表的那一瞬间&r&6，一个布满星辉的黑色球幕笼罩了周围。巨大的噪音与混乱的光线一同涌现出来。仿佛过了无限长的一瞬间，当球幕消失时，周围已是一片陌生的景象&r"
+				""
+				"&e陌生的天空、陌生的生物与地貌——甚至连飞船都变成了陌生的模样，仿佛已经被异化为另一种陌生的东西&r"
+				""
+				"&e甚至连自己都变成了陌生的样子：&r&6你被这情况吓得从椅子上跳起来，却发现自己&a能够直接在空中飞行&r&r"
+				""
+				"&b什么情况！？&r"
+				""
+				"&6正当你如此想着，你听到一个声音直接从脑海中响起——&r"
+				"{@pagebreak}"
+				"你好，世界外的访客。我是&nSlimeli_&r!"
+				""
+				"无意打扰——你刚刚进行了一次跨宇宙的穿越。你从一个完全不同的宇宙来到了这个地方，如果你需要帮助的话，我将不胜荣幸！"
+				""
+				"&b是你把我“拉”过来的？你想做什么？我要怎么样你才能送我回去？&r"
+				""
+				"先冷静一下。我并没有这种能力——那只是一种自然现象. 自从&a大撕裂&r之后，这个宇宙就变得愈发地不稳定，不时就会有其他宇宙的访客因此来到这里. 很抱歉，我也不知道要如何让你回去——对于这个宇宙现在的文明而言，我们还没有能力前往宇宙之外"
+				""
+				"&b你犹豫了许久，最后发现自己别无选择。&r"
+				""
+				"&b好吧，我暂时相信你。既然你是来提供帮助的，那么我有几个问题——&r"
+			]
+			id: "28247D1DB799E33A"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "create:goggles"
+				id: "7E2B9E5F007B9D5E"
+				title: "结束，亦或是开始"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28247D1DB799E33A"]
+			description: [
+				"在距今约&e三百万个行星日&r前，另一个宇宙与本宇宙“撞”在了一起。那次撞击撕裂了这两个宇宙。大量外来物质的涌入使得本宇宙的底层信息流变得混乱且不稳定。自那时的&a大撕裂&r起，本宇宙的田园时代就结束了。在那以后，整个世界变得愈发光怪陆离。"
+				""
+				"&b一场宇宙级的交通事故？&r"
+				""
+				"很奇妙的比喻，但确实很贴切。"
+				""
+				"&b这所谓的“不稳定”是怎么个不稳定法？&r"
+				""
+				"自从&a大撕裂&r之时起，整个宇宙的基础物理规律就发生了变化。&e一种名为“魔法”的东西出现在了世界上、热的扩散方式变得奇怪、物质的性质变得陌生、&r&a植物不再自然生长、甚至在黑暗中还会滋生出怪物。&r你只需要在这片大地上四处逛逛，就能发现许多的奇诡之处。"
+				""
+				"&b魔法？怪物？&r"
+				"{@pagebreak}"
+				"是的，这些东西原本并不存在于这个世界上。它们是伴随着大撕裂从另一个宇宙当中来的。我可以利用一些仪式魔法来为你提供帮助，比如&a在你“死亡”时避免你的随身物品丢失。&r"
+				""
+				"[ \"至于怪物，你可以选择用光照抑制它们的出现，也可以使用\", { \"text\": \"现实稳定锚\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"634E2C0696B2DB36\" } }, \"。\" ]"
+				"&6任务中的划线文本均可以点击跳转。&r"
+			]
+			icon: "minecraft:grass_block"
+			id: "40F0F5F24BE519D8"
+			rewards: [{
+				id: "1E1CB3A3C5B33C94"
+				item: "kubejs:slime_cola_can"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5080CB87F934EB9D"
+				title: "这个宇宙为什么会变得不稳定？"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28247D1DB799E33A"]
+			description: [
+				"如果你想要回家的话——&a那么你首先需要在这里建设起完备的工业体系，并且在探究世界底层的道路上走的更远。&r而即使你想在这里长久地住下去，你也需要这么做——因为这个宇宙的状态并不好，而现在我们肯定是做不到&a修复它&r的。"
+				""
+				"&b这真的是我一个人所能做到的吗？&r"
+				""
+				"纠正一下，还有我呢。这件事并没有你想象的那么困难。这个世界目前的规则使得“单人建立文明”成为了一项只要有足够的知识就能够胜任的任务——而我刚好在这方面能帮上你。"
+				""
+				"&b那为什么你自己不去完成这件事？&r"
+				""
+				"尽管目前我还没法解释清楚这点，但在大撕裂之时，我沾染了太多来自异宇宙的物质，所以如果我出现在现实宇宙，就会导致现实宇宙的稳定度进一步下降。这导致我现在只能将自己放逐在一个小宇宙当中，而只与主宇宙当中的生命保持信息上的交流。所以我需要你。"
+				"{@pagebreak}"
+				"&b为什么是我？&r"
+				""
+				"从某种程度上讲，你也许就是当前&e主宇宙当中文明程度最高的人&r了。在大撕裂之后，主世界的绝大多数文明都毁灭了。在我的观察范围内，最先进的文明就是你所在星球上的村民们——但他们还处在农牧时代，并且他们的躯体过于脆弱，难以胜任这项任务。"
+				""
+				"&b那我暂时没有问题了。&r"
+			]
+			icon: "create:schematic_and_quill"
+			id: "41E8A03FDA41D3CD"
+			tasks: [{
+				id: "03430D42C8D40887"
+				title: "那么我现在该做什么？"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["41E8A03FDA41D3CD"]
+			description: [
+				"这很好——我为你准备了许多指引，它们大体可以分为三类：&e任务、思索、JEI&r，用于帮助你重建文明。其中，思索和JEI主要为你提供部分&a机器、元件和配方的细节&r，而&a整体的发展方向&r则需要在任务中查看。"
+				""
+				"在这之中，任务被我大体分为了若干&e乐章&r，而在每个乐章内部还有&e变奏、插曲小结。&r&a不同乐章之间并没有严格的先后顺序。"
+				""
+				"每个乐章中的小结、变奏与插曲是&a可选的部分&r，它们一般有助于你的发展，但并非必需。"
+				""
+				"&e当然，为了让你能够更好地掌握那些宝贵的知识，我只会给你以必要的指引——一些具体的技术需要你自己通过&r&a科研&r&e获取。&r"
+				""
+				"[ \"如果你准备好了，可以打开任务中的\", { \"text\": \"第一乐章\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"32FEB3B836BDA89D\" } } ]"
+				"&6任务中划横线的文本都是可以点击跳转的。&r"
+			]
+			icon: {
+				Count: 1
+				id: "create_sa:brass_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0F76EBF168AD717B"
+			tasks: [{
+				id: "24BD61FE755154EC"
+				title: "那我们现在开始吧"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["28247D1DB799E33A"]
+			description: ["{ftbquests.chapter_4CE866617236E6D1.quest_4CF41168C8D78D68.desc_01}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:writable_book"
+			id: "4CF41168C8D78D68"
+			shape: "rsquare"
+			tasks: [{
+				id: "6489F8665455EB28"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter_4CE866617236E6D1.quest_4CF41168C8D78D68.title}"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["28247D1DB799E33A"]
+			description: ["{ftbquests.chapter_4CE866617236E6D1.quest_085F2CB88D631DB6.desc_01}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:writable_book"
+			id: "085F2CB88D631DB6"
+			shape: "rsquare"
+			tasks: [{
+				id: "7A341F96695E813F"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter_4CE866617236E6D1.quest_085F2CB88D631DB6.title}"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["28247D1DB799E33A"]
+			description: ["{ftbquests.chapter_4CE866617236E6D1.quest_314016CD5313C6C9.desc_01}"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:writable_book"
+			id: "314016CD5313C6C9"
+			shape: "rsquare"
+			tasks: [{
+				id: "228F1C7A7DD0B437"
+				type: "checkmark"
+			}]
+			title: "{ftbquests.chapter_4CE866617236E6D1.quest_314016CD5313C6C9.title}"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: ["{ftbquests.chapter_4CE866617236E6D1.quest_3663695C98489B76.desc_01}"]
+			id: "3663695C98489B76"
+			tasks: [{
+				id: "5712B5873A6B37EE"
+				title: "{ftbquests.chapter_4CE866617236E6D1.quest_3663695C98489B76.task_5712B5873A6B37EE.title}"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			description: ["{ftbquests.chapter_4CE866617236E6D1.quest_2163479F56D4B75A.desc_01}"]
+			id: "2163479F56D4B75A"
+			tasks: [{
+				id: "4B7FA605C2A3AC7D"
+				title: "{ftbquests.chapter_4CE866617236E6D1.quest_2163479F56D4B75A.task_4B7FA605C2A3AC7D.title}"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			description: ["{ftbquests.chapter_4CE866617236E6D1.quest_55C1CA01846C60D4.desc_01}"]
+			icon: "beyonddimensions:net_manager_inviter"
+			id: "55C1CA01846C60D4"
+			rewards: [
+				{
+					id: "7A2562A5B13F4B73"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							BlockEntityTag: {
+								id: "minecraft:skull"
+							}
+							SkullOwner: {
+								Name: "Slimeli_"
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc0Nzk4NzQzMzcyNCwKICAicHJvZmlsZUlkIiA6ICI1MTgyMDY2N2I3MzQ0M2M0YTlkNDM0YjcxMzIyYmJiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTbGltZWxpXyIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYTNiYjQ5NjUyZDkzMDgzZDY3NzI4ODc2YWRiZTVmOWU1OTI3ZTAxNzUzNmU4YTFkYzA2MGQ5NDI3ZjBlODc0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q5ZDgyYWIxN2ZkOTIwMjJkYmQ0YTg2Y2RlNGMzODJhNzU0MGUxMTdmYWU3YjlhMjg1MzY1ODUwNWE4MDYyNSIKICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58E9773DFDC5F646"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							BlockEntityTag: {
+								id: "minecraft:skull"
+							}
+							SkullOwner: {
+								Name: "AndesiteAbound"
+								Properties: {
+									textures: [{
+										Signature: "cxkwoP26h/ngQ5UY8V96isxX5UcghImEx6v7XblrrVHmaaJiaOEV5/7dvfjtyFNpw/NEMB0H42ok8f7ehhypku0ZIBdunpRNn+l4USguv4qQShyg8SHp0NePOiFtK47KkYzDAZhwWzbp+coDrdXXUUXnQIW1ScNamxV8N75t8Wa2q2uy78PFyexbkHGtVu/dbYvskXZCH9XQfmuRbX6xRkpwT3x/g+ZTsZVhLWqU1mv9aTpoy3xOECj5R+aFPMG4GqBSREs92e8OIeLP41nQHzFyecvqXbc8N26XOeV9HWbHQvuyc+jRwK10AGI2y+qkj56RgZ5mDQ4e37LX0u44Lkhqjced/LofCMXnYMkQEw4BlCZTW9dsRzoFTrKvbEU+Tbkmjfv8O4AR3UPPN/aQMBppNzt3UtzVki/oNwxJmvz7trNtPWylGjn16W+QRK5vSE+ypoNMk7383d5hw5W/DNqNwVHbJBzafouS4eJItNxT/pH+vjvjAgFLrWr0eAEvaJEqu8Rdf76PweRhmyzUa/XXgHIY5TvQQTTerM3FnH3DawoRGTq7nyE7kivu7TF0ZmjSDNxEIASOsOmwrXEjpzUcL1tX5yqFG6eWSfbGlWGo8iv7hupv1x2RPOu0MjgtzlzI2GicfsCMRSpHi+Pp9Ul9tNfthYBq4mzfYzMqpD4="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc3MjQyMDExNDQ3NywKICAicHJvZmlsZUlkIiA6ICJhYmRiYmIxZjYzMTg0ZTA3OGRlMmQ3NGM0OWUzYmUwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbmRlc2l0ZUFib3VuZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZDhhY2Q5ZjI0ODI3NTI2MmJjNmFjM2I0ZDkxMTIwZGFkNWQwNzY2Y2QzNjRhYWM0OWI1ODg2NGFmOTI2NzFkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZjMzU2MjhmZTFjNGQ1OWRkNTI1NjFhM2QwM2JmYTRlMWE3NmQzOTdjOGI5YzQ3NmMyZjc3Y2I2YWViYjFkZiIKICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51E7171283604D9F"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							BlockEntityTag: {
+								id: "minecraft:skull"
+							}
+							SkullOwner: {
+								Name: "Fly_Machine"
+								Properties: {
+									textures: [{
+										Signature: "vEK0DzTuMLVDyzTqLSGZ58U/cgIhVDfHC04vp8UB8gA0uib9vYysm4/mjobgqXpz+ZyAdKmBI8U/XEX/SHfih0G9A4q6bHPPXKfgj+5CaeU+9kFxJbiK4C+BH3/B3sageY4tkCc1kN+ypnb/1LR3vlxLeNnvldi8FymKyRReAz+3/0MZ0UsXdRLvBQn+iDDm2O9WImlZrQM6JU+hcZ8aprS7cTS37ynfPuzI0RocEqDAkTrSKf4Yq1cnZ7zVjfXpvILoYIqF/+lmUuDNlbmPOVP8WrHiE+5BRAr+QQLAymxrhDpXAsrBEnyXsVGMkR5Su9333SaQWD8x3lELtSy2t5T/WVeUDa0shcl4tWVugT7T+tIBMbUNkReTEL0jyuySZTlreNWvbFYDYhqi8uuq7ofMMfNV4g0OjBadSw5GKf562evPzQfAoXnOV+M3ere0WlbE81ZoO1N+3Cf4pQ3DDmfRwXsISp4uaNywhj9kZdCx6zMtWJ+ilg6kWwHzMy1bZc6s9AcgtnuCeTxgwUwJN1FGEn/6WxKeVeBD4WV/eesXyoutG6wDoJTLC6612eXT9htfEn85s6Lcqc+ay0fb8tJprVRUISl2T2MQqxGfvepA2wTdMVXsf/6shYMBng7qENtTaGDzTWZtIqPgX+JkT7f1lOwp/9G/2b8O1OphNcQ="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc3MjQyMDExMDkxMywKICAicHJvZmlsZUlkIiA6ICI3MzgwOTUwYjkzNzQ0MWMzOTVjNjI0MmMzNGQxMTllMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJGbHlfTWFjaGluZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NTFmYjU5MzY1OGU2Mjc4NWMyMDA5NDA0YzhlYmI1YTdhZWU4ZTYwY2ZkZTZkY2E4NzQxZWM2OWEzNWFiOTJhIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ=="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D258679A67C64AA"
+					item: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							BlockEntityTag: {
+								id: "minecraft:skull"
+							}
+							SkullOwner: {
+								Name: "xkmxz2503"
+								Properties: {
+									textures: [{
+										Signature: "sawUuY/M6tzE6Jd4cCgTgpw1VUyVyBRnDhQNXQlxsHdLgFNVjan7fH7pMy4kd+1ATrLGj2dCctJviE4cnWCwco5VeadJZ+mxNp2jhALORfnczn/igNYfuutlNJCXCGXJe+E7jhoMrWjXx+SoV5yvDfbUisynwcEGboObRb3lg3RRvDhjQgoM6Namz4MheVLBQhpMr18x1UwStb0bt5ihU4mmvt45/jX6AqwCP5jIuP1TK/ilcIZASrNEH5Czt237bWXUK1tKWk+bdpJSp5l9eSgP816QAZx3LTltZDdeJRl85Lin+GAm0jsTSWeB28YqzwwM5Dz+FDAVdNh+TpREr/G533uT8XfLYFn9LoGwku84qi4wVjGG3lNcSOGSgdOK0DuYyCuAJFWm8ctOoq/2LEv6qko3e68Si6ZdC/x0ETYrdAeFAsRzpyA5dQW1lVqdV8mxC3JEk5+DtIbZ/4lgx+jEDr7qmenSvZBppe5DTTzP9KFhokamn/XGvyu3hx/gkTuywxUZ8h+wGjfQAYrnG+k2Gx+wA84LDoIDY+Xq37hTfskofE4QA3sIiiba2qfgYkIC5tGCtsCrFAIewk+izOidJhk/4vTTzzl8gCCZfke61pRDKGCMenGRvryVaGTeYc0+BmOuG/T3bdnjkGkxzjd7EPkF7a1zj1bFi/qES8w="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTc3MjQyMDExODMwMywKICAicHJvZmlsZUlkIiA6ICJmY2QxOGZmZTNkMGE0ODcwYjAwMWFjZWRhYjZhNDQ4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4a214ejI1MDMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE5YmVmYTM5NzkyZDcwNjdhOTY1ZTQxODNmMGRiMDJmZDVjNmZhYzAxNmU3ZDY3N2UwMzFlM2ZlOTY4NmIwMyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EzZjZlNGYxNDgwMWYzZWE1NWUzZDk1YjliNGVmM2I1ZTg4MDJkOTQ3ZjY2OWRlOTNkNmVjNGI5MzU0YTQzNmIiCiAgICB9CiAgfQp9"
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "{ftbquests.chapter_4CE866617236E6D1.quest_55C1CA01846C60D4.subtitle}"
+			tasks: [{
+				id: "4BB29A05B0D9F828"
+				title: "{ftbquests.chapter_4CE866617236E6D1.quest_55C1CA01846C60D4.task_4BB29A05B0D9F828.title}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["427665DF9DDD1F93"]
+			description: [
+				"这个世界整体而言并不安全——但对于现在的你来说应该没什么所谓——&e毕竟你可以随意部署切换自己的躯体。&r"
+				""
+				"如果你找不到合适的部署地点，你可以使用&a/redeploy&r指令来重新部署至地球的 0 0 0 处。&c需要注意的是，这会使你的所有物品丢失！&r"
+				""
+				"&e而关于怪物，你也是不用担心的&r——我可以为你提供一种叫作&a现实稳定锚&r的设备来抑制它们的出现。"
+				""
+				"你可以使用“&e/spawnsetting&r”以及“&e/lockspawn&r”来向它下达指令，&a并限制指定维度的生物生成。"
+				""
+				"&e你可以使用&r&a/disconnect&r&e来主动断开与躯体的链接。&r"
+				"&e你可以使用&r&a/back&r&e来重新部署至死亡地点或是上一个部署点。&r"
+				"&e你可以使用&r&a/spawn&r&e来重新部署至记录点。&r"
+				"&e你可以使用&r&a/sethome&r&e来设置一个名为home的部署地点。&r"
+				"&e你可以使用&r&a/home&r&e来重新部署至home。&r"
+			]
+			icon: "create:honeyed_apple"
+			id: "634E2C0696B2DB36"
+			tasks: [{
+				id: "49BA3D7B6EFD021D"
+				title: "在这里生存下去的难度如何？"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"你可以使用&a/tpa&r来请求部署至其它人的位置。"
+				"你可以使用&a/tpahere&r来请求其它人部署至你的位置。"
+				"你可以使用&a/tpaccept&r来同意其它人的部署请求。"
+				"你可以使用&a/warp&r来部署至传送点。"
+				"你可以使用&a/warplist&r来查看可用的传送点。"
+			]
+			icon: "beyonddimensions:net_member_inviter"
+			id: "0275CF2C04613BB3"
+			tasks: [{
+				id: "148CE7C2BEA34CE5"
+				title: "多人游玩适用"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	title: "前奏-异界"
+}

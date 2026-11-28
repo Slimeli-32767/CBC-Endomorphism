@@ -1,0 +1,84 @@
+{
+    "name": "block.kubejs.andesite_universal_machine",
+    "appearance": {
+        "resistance": 12,
+        "requires_tool": false,
+        "idle": {
+            "block": "kubejs:machine/andesite_universal_machine"
+        },
+        "running": {
+            "block": "kubejs:machine/andesite_universal_machine"
+        },
+        "errored": {
+            "block": "kubejs:machine/andesite_universal_machine"
+        },
+        "paused": {
+            "block": "kubejs:machine/andesite_universal_machine"
+        }
+    },
+    "components": [
+        {
+            "type": "custommachinery:redstone",
+            "powertopause": 1
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 2000,
+            "id": "fluid_input",
+            "maxInput": 2000,
+            "maxOutput": 0,
+            "mode": "input",
+            "config": {
+                "default": "input",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 2000,
+            "id": "fluid_output",
+            "maxInput": 0,
+            "maxOutput": 2000,
+            "mode": "output",
+            "config": {
+                "default": "output",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "input",
+            "mode": "input",
+            "locked": false,
+            "config": {
+                "default": "input",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "output1",
+            "mode": "output",
+            "locked": false,
+            "config": {
+                "default": "output",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "output2",
+            "mode": "output",
+            "locked": false,
+            "config": {
+                "default": "output",
+                "input": false,
+                "output": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,345 @@
+{
+    "name": "block.kubejs.assembling_machine",
+    "appearance": {
+        "resistance": 12,
+        "requires_tool": false,
+        "idle": {
+            "block": "kubejs:machine/assembling_machine"
+        },
+        "running": {
+            "block": "kubejs:machine/assembling_machine"
+        },
+        "errored": {
+            "block": "kubejs:machine/assembling_machine"
+        },
+        "paused": {
+            "block": "kubejs:machine/assembling_machine"
+        }
+    },
+    "tooltips": [
+        {
+            "text": "kubejs.tooltip.multiblock_mech",
+            "color": "green"
+        },
+        {
+            "text": "kubejs.tooltip.multiblock_mech1",
+            "color": "green"
+        }
+    ],
+    "components": [
+        {
+            "type": "custommachinery:general_structure",
+            "id": "main",
+            "pattern": [
+                [
+                    "     ",
+                    " BBB ",
+                    " BII ",
+                    " BII ",
+                    " BIN ",
+                    " BBB ",
+                    " BBB ",
+                    "  VY "
+                ],
+                [
+                    " AAA ",
+                    "A D A",
+                    "A   A",
+                    "A   A",
+                    "AO  A",
+                    "ARSTA",
+                    " RVY ",
+                    "  m  "
+                ],
+                [
+                    " AAA ",
+                    "AFGFA",
+                    "AGJKA",
+                    "AGLMA",
+                    "AGPQA",
+                    "AUUUA",
+                    " UUU ",
+                    "     "
+                ],
+                [
+                    "     ",
+                    " HHH ",
+                    " HHH ",
+                    " HHH ",
+                    " HHH ",
+                    " HHH ",
+                    " HHH ",
+                    "     "
+                ]
+            ],
+            "keys": {
+                "O": "vintageimprovements:spring_coiling_machine",
+                "T": "createaddition:rolling_mill",
+                "F": "create:mechanical_arm",
+                "B": "create:copper_casing",
+                "Y": "create:mechanical_pump",
+                "A": "create:framed_glass_trapdoor",
+                "U": "create:secondary_linear_chassis",
+                "D": "create:millstone",
+                "I": "create:depot",
+                "N": "create:basin",
+                "V": "create:encased_fluid_pipe",
+                "H": "minecraft:smooth_stone_slab",
+                "G": "create:nixie_tube",
+                "P": "create:mechanical_press",
+                "J": "create:spout",
+                "L": "create:deployer",
+                "M": "vintageimprovements:laser",
+                "K": "createaddition:tesla_coil",
+                "S": "create:mechanical_saw",
+                "Q": "create:mechanical_mixer",
+                "R": "design_decor:industrial_gear_large"
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "1",
+            "mode": "input",
+            "locked": false
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "2",
+            "mode": "input",
+            "locked": false
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "3",
+            "mode": "input",
+            "locked": false
+        },
+        {
+            "type": "custommachinery:fluid",
+            "capacity": 16000,
+            "id": "4",
+            "maxOutput": 0,
+            "mode": "both"
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "5",
+            "mode": "output",
+            "locked": false
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "6",
+            "mode": "output",
+            "locked": false
+        },
+        {
+            "type": "custommachinery:energy",
+            "capacity": 96000,
+            "mode": "input",
+            "id": "fe",
+            "config": {
+                "input": true,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "upgrade1",
+            "mode": "none",
+            "capacity": 1,
+            "variant": "custommachinery:upgrade",
+            "config": {
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "upgrade2",
+            "mode": "none",
+            "capacity": 1,
+            "variant": "custommachinery:upgrade",
+            "config": {
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        },
+        {
+            "type": "custommachinery:item",
+            "id": "upgrade3",
+            "mode": "none",
+            "capacity": 1,
+            "variant": "custommachinery:upgrade",
+            "config": {
+                "default": "none",
+                "input": false,
+                "output": false
+            }
+        }
+    ],
+    "gui": [
+        {
+            "type": "custommachinery:texture",
+            "x": 0,
+            "y": 0,
+            "texture": "custommachinery:textures/gui/base_background.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 101,
+            "y": 75,
+            "id": "upgrade1",
+            "texture": "kubejs:textures/gui/upgrade_slot.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 119,
+            "y": 75,
+            "id": "upgrade2",
+            "texture": "kubejs:textures/gui/upgrade_slot.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 137,
+            "y": 75,
+            "id": "upgrade3",
+            "texture": "kubejs:textures/gui/upgrade_slot.png"
+        },
+        {
+            "type": "custommachinery:progress",
+            "x": 125,
+            "y": 40
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 47,
+            "y": 40,
+            "id": "1",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 65,
+            "y": 40,
+            "id": "2",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 83,
+            "y": 40,
+            "id": "3",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "x": 101,
+            "y": 40,
+            "id": "4",
+            "width": 18,
+            "height": 18
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 155,
+            "y": 40,
+            "id": "5",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 173,
+            "y": 40,
+            "id": "6",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:energy",
+            "id": "fe",
+            "x": 191,
+            "y": 25
+        },
+        {
+            "text": "block.kubejs.assembling_machine",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        },
+        {
+            "x": 47,
+            "y": 110,
+            "type": "custommachinery:player_inventory"
+        }
+    ],
+    "jei": [
+        {
+            "type": "custommachinery:texture",
+            "x": 0,
+            "y": 0,
+            "texture": "custommachinery:textures/gui/base_background.png"
+        },
+        {
+            "type": "custommachinery:progress",
+            "x": 125,
+            "y": 40
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 47,
+            "y": 40,
+            "id": "1",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 65,
+            "y": 40,
+            "id": "2",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 83,
+            "y": 40,
+            "id": "3",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:fluid",
+            "x": 101,
+            "y": 40,
+            "id": "4",
+            "width": 18,
+            "height": 18
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 155,
+            "y": 40,
+            "id": "5",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:slot",
+            "x": 173,
+            "y": 40,
+            "id": "6",
+            "texture": "custommachinery:textures/gui/base_slot.png"
+        },
+        {
+            "type": "custommachinery:energy",
+            "id": "fe",
+            "x": 191,
+            "y": 25
+        },
+        {
+            "text": "block.kubejs.assembling_machine",
+            "x": 7,
+            "y": 5,
+            "type": "custommachinery:text"
+        }
+    ]
+}

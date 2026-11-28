@@ -1,0 +1,50 @@
+[
+    {
+        "matchItems": [
+            "create_sa:copper_helmet",
+            "create_sa:zinc_helmet",
+            "minecraft:leather_helmet",
+            "minecraft:chainmail_helmet",
+            "minecraft:golden_helmet",
+            "minecraft:iron_helmet",
+            "minecraft:diamond_helmet"
+        ],
+        "resultItems": "create_sa:brass_helmet"
+    },
+    {
+        "matchItems": [
+            "create_sa:copper_chestplate",
+            "create_sa:zinc_chestplate",
+            "minecraft:leather_chestplate",
+            "minecraft:chainmail_chestplate",
+            "minecraft:golden_chestplate",
+            "minecraft:iron_chestplate",
+            "minecraft:diamond_chestplate"
+        ],
+        "resultItems": "create_sa:brass_chestplate"
+    },
+    {
+        "matchItems": [
+            "create_sa:copper_leggings",
+            "create_sa:zinc_leggings",
+            "minecraft:leather_leggings",
+            "minecraft:chainmail_leggings",
+            "minecraft:golden_leggings",
+            "minecraft:iron_leggings",
+            "minecraft:diamond_leggings"
+        ],
+        "resultItems": "create_sa:brass_leggings"
+    },
+    {
+        "matchItems": [
+            "create_sa:copper_boots",
+            "create_sa:zinc_boots",
+            "minecraft:leather_boots",
+            "minecraft:chainmail_boots",
+            "minecraft:golden_boots",
+            "minecraft:iron_boots",
+            "minecraft:diamond_boots"
+        ],
+        "resultItems": "create_sa:brass_boots"
+    }
+]

@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "30B81675C3809613"
+	group: "5997E69EB327A306"
+	icon: "geckojs:stepping_caculator"
+	id: "30B81675C3809613"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["{ftbquests.chapter_30B81675C3809613.quest_4215247FF641C957.desc_01}"]
+		id: "4215247FF641C957"
+		shape: "gear"
+		size: 1.25d
+		tasks: [{
+			id: "70D2F33F9EAAC5F9"
+			title: "{ftbquests.chapter_30B81675C3809613.quest_4215247FF641C957.task_70D2F33F9EAAC5F9.title}"
+			type: "checkmark"
+		}]
+		x: 1.25d
+		y: -1.25d
+	}]
+	title: "{ftbquests.chapter_30B81675C3809613.title}"
+}

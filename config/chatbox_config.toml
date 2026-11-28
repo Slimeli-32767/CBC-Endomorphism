@@ -1,0 +1,6 @@
+historicalScrollSpeed = 10
+soundInterruptionEnabled = true
+charPerSecond = 20
+portraitWidthPercent = 100
+disableMouseScroll = false
+isStopTerraDialog = false
